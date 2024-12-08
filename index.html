@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal HomePage</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Dynamic Personal HomePage</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
 </head>
 <body>
+    <!-- 粒子背景 -->
+    <div id="particles-js"></div>
+
     <!-- 动态头部 -->
     <header class="dynamic-header">
         <div class="container">
@@ -24,23 +28,23 @@
     </header>
 
     <!-- 关于我 -->
-    <section id="about" class="container about-section">
+    <section id="about" class="container about-section" data-aos="fade-up">
         <h2>关于我</h2>
         <p>你好！我是一个热衷于技术创新的Python开发者，擅长数据分析和自动化工具开发。</p>
         <p>目前专注于内部控制和风险管理的开发项目，喜欢用代码解决实际问题。</p>
     </section>
 
     <!-- 作品集 -->
-    <section id="portfolio" class="container portfolio-section">
+    <section id="portfolio" class="container portfolio-section" data-aos="zoom-in">
         <h2>作品集</h2>
         <div class="project-grid">
-            <div class="project-card">
+            <div class="project-card" data-aos="fade-right">
                 <img src="project1.jpg" alt="项目1" />
                 <h3>风险热力图生成器</h3>
                 <p>用于生成风险热力图的Python工具。</p>
                 <a href="https://github.com/你的项目链接" target="_blank" class="btn">查看项目</a>
             </div>
-            <div class="project-card">
+            <div class="project-card" data-aos="fade-left">
                 <img src="project2.jpg" alt="项目2" />
                 <h3>Word表格格式整理工具</h3>
                 <p>批量设置Word文档中表格的格式。</p>
@@ -50,7 +54,7 @@
     </section>
 
     <!-- 联系我 -->
-    <section id="contact" class="container contact-section">
+    <section id="contact" class="container contact-section" data-aos="fade-up">
         <h2>联系我</h2>
         <p>欢迎通过以下方式联系我：</p>
         <ul class="contact-list">
@@ -66,5 +70,13 @@
             <p>© 2024 Yiyao Noah. All rights reserved.</p>
         </div>
     </footer>
+
+    <!-- JS 脚本 -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
