@@ -4,11 +4,11 @@
 ---
 <img align="right" alt="GIF" src="https://raw.githubusercontent.com/haoruilee/haoruilee/master/pic/pusheencode.gif" />
 
-### I'm Dahezhiquan
+### I'm Yiyao
 
 - 🔭 Bachelor of Computer Science in Chien-Shiung Wu College, Southeast University, China
-- 🌱 Currently working on "Using ML for meteorological early warning"
-- 💬 Ask me about C++, Python and my projects on haoruileee@gmail.com
+- 🌱 Currently working on "Visualization of Risk Management"
+- 💬 Ask me about Python, Data Analysis and my projects on 437513195@qq.com
 - :star: You may like [Healthy Code tracer](https://github.com/haoruilee/M5Stack_Healthy_code_tracer)
   、 [face recognize](https://github.com/haoruilee/Face_recognize) 、
   or [take-out system](https://github.com/haoruilee/ZuiSuWaiMai-MFC)
