@@ -1,31 +1,70 @@
-<header class="dynamic-header">
-    <div class="container">
-        <h1>Yiyao Noah</h1>
-        <p>Python Developer | Management Consultant | 技术爱好者</p>
-        <nav>
-            <ul>
-                <li><a href="#about" class="btn">关于我</a></li>
-                <li><a href="#portfolio" class="btn">作品集</a></li>
-                <li><a href="#contact" class="btn">联系我</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal HomePage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 动态头部 -->
+    <header class="dynamic-header">
+        <div class="container">
+            <h1>Yiyao Noah</h1>
+            <p>Python Developer | Management Consultant | 技术爱好者</p>
+            <nav>
+                <ul>
+                    <li><a href="#about" class="btn">关于我</a></li>
+                    <li><a href="#portfolio" class="btn">作品集</a></li>
+                    <li><a href="#contact" class="btn">联系我</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-<section id="portfolio" class="container portfolio-section">
-    <h2>作品集</h2>
-    <div class="project-grid">
-        <div class="project-card">
-            <img src="project1.jpg" alt="项目1" />
-            <h3>风险热力图生成器</h3>
-            <p>用于生成风险热力图的Python工具。</p>
-            <a href="https://github.com/你的项目链接" target="_blank" class="btn">查看项目</a>
+    <!-- 关于我 -->
+    <section id="about" class="container about-section">
+        <h2>关于我</h2>
+        <p>你好！我是一个热衷于技术创新的Python开发者，擅长数据分析和自动化工具开发。</p>
+        <p>目前专注于内部控制和风险管理的开发项目，喜欢用代码解决实际问题。</p>
+    </section>
+
+    <!-- 作品集 -->
+    <section id="portfolio" class="container portfolio-section">
+        <h2>作品集</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="project1.jpg" alt="项目1" />
+                <h3>风险热力图生成器</h3>
+                <p>用于生成风险热力图的Python工具。</p>
+                <a href="https://github.com/你的项目链接" target="_blank" class="btn">查看项目</a>
+            </div>
+            <div class="project-card">
+                <img src="project2.jpg" alt="项目2" />
+                <h3>Word表格格式整理工具</h3>
+                <p>批量设置Word文档中表格的格式。</p>
+                <a href="https://github.com/你的项目链接" target="_blank" class="btn">查看项目</a>
+            </div>
         </div>
-        <div class="project-card">
-            <img src="project2.jpg" alt="项目2" />
-            <h3>Word表格格式整理工具</h3>
-            <p>批量设置Word文档中表格的格式。</p>
-            <a href="https://github.com/你的项目链接" target="_blank" class="btn">查看项目</a>
+    </section>
+
+    <!-- 联系我 -->
+    <section id="contact" class="container contact-section">
+        <h2>联系我</h2>
+        <p>欢迎通过以下方式联系我：</p>
+        <ul class="contact-list">
+            <li>Email: <a href="mailto:437513195@qq.com">437513195@qq.com</a></li>
+            <li>GitHub: <a href="https://github.com/yourprofile" target="_blank">yourprofile</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">yourprofile</a></li>
+        </ul>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Yiyao Noah. All rights reserved.</p>
         </div>
-    </div>
-</section>
+    </footer>
+</body>
+</html>
