@@ -3,7 +3,6 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
-    padding: 0;
     background: #f9f9f9;
     color: #333;
 }
@@ -54,21 +53,6 @@ header nav ul li a:hover {
     color: #2575fc;
 }
 
-/* 主内容样式 */
-section {
-    margin: 40px 0;
-    padding: 20px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #2575fc;
-}
-
 /* 项目卡片样式 */
 .project-grid {
     display: grid;
@@ -88,14 +72,8 @@ h2 {
     transform: scale(1.05);
 }
 
-.project-card h3 {
-    margin-top: 0;
-    color: #333;
-}
-
-.project-card a {
+.btn {
     display: inline-block;
-    margin-top: 10px;
     padding: 10px 15px;
     background: #2575fc;
     color: white;
@@ -104,8 +82,19 @@ h2 {
     transition: 0.3s;
 }
 
-.project-card a:hover {
+.btn:hover {
     background: #6a11cb;
+}
+
+/* 联系方式样式 */
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-list li {
+    margin: 10px 0;
 }
 
 /* 底部样式 */
